@@ -91,7 +91,7 @@ Top predictors from the tuned Random Forest model:
 The city's development index and current company size are by far the strongest signals of whether a candidate is looking for a new role.
 
 
-##Repository Structure
+## Repository Structure
 ```
 Main
 │
