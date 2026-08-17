@@ -1,6 +1,6 @@
-# Job Change Prediction — Identifying Candidates Likely to Switch Jobs
+# Job Change Prediction — Identifying Candidates Likely to advance to the next stage of the hiring process.
 
-A machine learning project that predicts whether a candidate who has completed data science training is likely to be looking for a job change. The goal is to help a company prioritize outreach to candidates most likely to leave, so recruitment and training resources can be targeted more effectively.
+A machine learning project that predicts whether a candidate who has completed data science training is likely to advance to the next stage of the hiring process, so recruitment and training resources can be targeted more effectively.
 
 ## Table of Contents
 - [Overview](#overview)
