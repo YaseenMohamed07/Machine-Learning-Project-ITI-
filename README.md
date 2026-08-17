@@ -22,6 +22,30 @@ The final notebook also produces a ranked shortlist of the top candidates most l
 
 ## Dataset
 
+Repository Structure
+```
+Main
+│
+├── dataset/
+│   ├── aug_train.csv
+│   ├── aug_test.csv
+│   ├── processed-aug_train.csv
+│   ├── processed-aug_test.csv
+│   └── final_candidate_predictions.csv
+│
+├── Source-Code/
+│   └── Source Code.ipynb
+│
+├── trained-models/
+│   ├── best_xgb_model.pkl        
+│   └── best_rf_model.pkl     
+│
+├── Machine Learning HR System report.pdf
+├── Project-Presentation.pptx
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
 The data consists of two files, `aug_train.csv` and `aug_test.csv`, with the following fields:
 
 | Column | Description |
