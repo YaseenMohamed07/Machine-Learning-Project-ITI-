@@ -21,31 +21,6 @@ Companies that fund employee training programs often want to know which trainees
 The final notebook also produces a ranked shortlist of the top candidates most likely to be looking for a new role, based on predicted probability.
 
 ## Dataset
-
-Repository Structure
-```
-Main
-│
-├── dataset/
-│   ├── aug_train.csv
-│   ├── aug_test.csv
-│   ├── processed-aug_train.csv
-│   ├── processed-aug_test.csv
-│   └── final_candidate_predictions.csv
-│
-├── Source-Code/
-│   └── Source Code.ipynb
-│
-├── trained-models/
-│   ├── best_xgb_model.pkl        
-│   └── best_rf_model.pkl     
-│
-├── Machine Learning HR System report.pdf
-├── Project-Presentation.pptx
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
 The data consists of two files, `aug_train.csv` and `aug_test.csv`, with the following fields:
 
 | Column | Description |
@@ -115,7 +90,30 @@ Top predictors from the tuned Random Forest model:
 
 The city's development index and current company size are by far the strongest signals of whether a candidate is looking for a new role.
 
-
+Repository Structure
+```
+Main
+│
+├── dataset/
+│   ├── aug_train.csv
+│   ├── aug_test.csv
+│   ├── processed-aug_train.csv
+│   ├── processed-aug_test.csv
+│   └── final_candidate_predictions.csv
+│
+├── Source-Code/
+│   └── Source Code.ipynb
+│
+├── trained-models/
+│   ├── best_xgb_model.pkl        
+│   └── best_rf_model.pkl     
+│
+├── Machine Learning HR System report.pdf
+├── Project-Presentation.pptx
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
 
 ## Getting Started
 
