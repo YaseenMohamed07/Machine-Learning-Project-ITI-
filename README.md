@@ -1,6 +1,6 @@
 # Job Opportunity Prediction — Identifying Candidates Likely to advance to the next stage of the hiring process.
 
-A  project that predicts whether a candidate who has completed data science training is likely to advance to the next stage of the hiring process, so recruitment and training resources can be targeted more effectively.
+A Machine learning project that predicts whether a candidate who has completed data science training is likely to advance to the next stage of the hiring process, so recruitment and training resources can be targeted more effectively.
 
 ## Table of Contents
 - [Overview](#overview)
