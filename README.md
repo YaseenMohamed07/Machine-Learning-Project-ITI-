@@ -69,7 +69,7 @@ Cross-validated performance (5-fold, ROC-AUC), sorted best to worst:
 | Logistic Regression | 0.7615 | 0.698 | 0.486 | 0.564 |
 | Ensemble | 0.7918 | 0.7194 | 0.576 | 0.658 |
 
-Additional models evaluated during experimentation: baseline Random Forest (CV ROC-AUC 0.784), baseline XGBoost (CV ROC-AUC 0.800), and a soft-voting ensemble of all three (CV ROC-AUC 0.800) — none outperformed the tuned XGBoost or tuned Random Forest above.
+Additional models evaluated during experimentation: baseline Random Forest (CV ROC-AUC 0.784), baseline XGBoost (CV ROC-AUC 0.784)  — none outperformed the tuned XGBoost or tuned Random Forest above.
 
 Class 1 (candidates looking for a job change) is the minority class (~25% of the data), so recall/precision/F1 on class 1 are reported alongside ROC-AUC to reflect performance on the class that matters most for this use case.
 
