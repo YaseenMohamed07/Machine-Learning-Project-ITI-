@@ -110,7 +110,7 @@ Main
 │   ├── best_xgb_model.pkl        
 │   └── best_rf_model.pkl     
 │
-├── Machine Learning HR System report.pdf
+├── Predicting_Candidate_Job_Change_Likelihood.pdf
 ├── Project-Presentation.pptx
 ├── .gitignore
 ├── README.md
