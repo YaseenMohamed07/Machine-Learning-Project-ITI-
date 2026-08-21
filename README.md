@@ -65,9 +65,10 @@ Cross-validated performance (5-fold, ROC-AUC), sorted best to worst:
 
 | Model | ROC-AUC | Class 1 Recall | Class 1 Precision | Class 1 F1 |
 |---|---|---|---|---|
-| **Tuned XGBoost** | **0.803** | 0.735 | 0.559 | 0.635 |
-| Tuned Random Forest | 0.801 | 0.719 | 0.562 | 0.631 |
-| Logistic Regression | 0.770 | 0.709 | 0.486 | 0.577 |
+| **Tuned XGBoost** | **0.796** | 0.685 | 0.586 | 0.6350 |
+| **Tuned Random Forest** | 0.803 | 0.719 | 0.572 | 0.631 |
+| **Logistic Regression** | 0.760 | 0.698 | 0.486 | 0.565 |
+| **Ensemble** | 0.793 | 0.719 | 0.577 | 0.647 |
 
 Additional models evaluated during experimentation: baseline Random Forest (CV ROC-AUC 0.784), baseline XGBoost (CV ROC-AUC 0.800), and a soft-voting ensemble of all three (CV ROC-AUC 0.800) — none outperformed the tuned XGBoost or tuned Random Forest above.
 
