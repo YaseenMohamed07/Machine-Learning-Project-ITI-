@@ -67,6 +67,7 @@ Cross-validated performance (5-fold, ROC-AUC), sorted best to worst:
 | **Tuned XGBoost** | **0.803** | 0.735 | 0.559 | 0.635 |
 | Tuned Random Forest | 0.801 | 0.719 | 0.562 | 0.631 |
 | Logistic Regression | 0.770 | 0.709 | 0.486 | 0.577 |
+| Ensemble | 0.7918 | 0.7194 | 0.576 | 0.658 |
 
 Additional models evaluated during experimentation: baseline Random Forest (CV ROC-AUC 0.784), baseline XGBoost (CV ROC-AUC 0.800), and a soft-voting ensemble of all three (CV ROC-AUC 0.800) — none outperformed the tuned XGBoost or tuned Random Forest above.
 
